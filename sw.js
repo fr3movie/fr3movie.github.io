@@ -67,7 +67,7 @@ if (!self.define) {
     });
   };
 }
-define(['./workbox-16108a29'], (function (workbox) { 'use strict';
+define(['./workbox-55f9a5b7'], (function (workbox) { 'use strict';
 
   self.addEventListener('message', event => {
     if (event.data && event.data.type === 'SKIP_WAITING') {
@@ -81,29 +81,29 @@ define(['./workbox-16108a29'], (function (workbox) { 'use strict';
    * See https://goo.gl/S9QRab
    */
   workbox.precacheAndRoute([{
-    "url": "assets/index-2f1cf2a8.css",
+    "url": "assets/index-40ea3b80.css",
     "revision": null
   }, {
-    "url": "assets/index-34283f52.js",
+    "url": "assets/index-afba5cfc.js",
     "revision": null
   }, {
     "url": "index.html",
-    "revision": "3d4278e494affe0acdbc244550690dc5"
+    "revision": "66780d1c4b647f9f3577fb6848177e86"
   }, {
     "url": "registerSW.js",
     "revision": "1872c500de691dce40960bb85481de07"
   }, {
     "url": "favicon.ico",
-    "revision": "c0dcb54368e4e62dfbdb39a2a74588c1"
+    "revision": "4dc29d6087fc2573673564226e8a25e6"
   }, {
     "url": "icons/icon-192.png",
-    "revision": "581dfd7c7a91985651466ffa363406a2"
+    "revision": "96426c5aae53ad468c1d6e0a08d96ed4"
   }, {
     "url": "icons/icon-512.png",
-    "revision": "0b6683ac58b54bc09a91e9c86e5bd5b1"
+    "revision": "24e84abe4ef576a76416370a4adff9f9"
   }, {
     "url": "manifest.webmanifest",
-    "revision": "75a2a2dce84156435e57d7ad461f6d65"
+    "revision": "2bae671be619ca730fc5d6683a71784c"
   }], {});
   workbox.cleanupOutdatedCaches();
   workbox.registerRoute(new workbox.NavigationRoute(workbox.createHandlerBoundToURL("index.html")));
