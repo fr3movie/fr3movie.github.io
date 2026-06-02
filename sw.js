@@ -67,7 +67,7 @@ if (!self.define) {
     });
   };
 }
-define(['./workbox-55f9a5b7'], (function (workbox) { 'use strict';
+define(['./workbox-06f37cf1'], (function (workbox) { 'use strict';
 
   self.addEventListener('message', event => {
     if (event.data && event.data.type === 'SKIP_WAITING') {
@@ -81,17 +81,17 @@ define(['./workbox-55f9a5b7'], (function (workbox) { 'use strict';
    * See https://goo.gl/S9QRab
    */
   workbox.precacheAndRoute([{
-    "url": "assets/index-154efa0e.css",
-    "revision": null
-  }, {
-    "url": "assets/index-9abfbf78.js",
-    "revision": null
-  }, {
-    "url": "index.html",
-    "revision": "d01d3b098afc03110e61798f3ebc1a02"
-  }, {
     "url": "registerSW.js",
     "revision": "1872c500de691dce40960bb85481de07"
+  }, {
+    "url": "index.html",
+    "revision": "4e3fe52a6912a25b4ad81414c82a7934"
+  }, {
+    "url": "assets/index-hEI5DmhF.js",
+    "revision": "53907b8fcd55cb57eebe31d9a318f8ef"
+  }, {
+    "url": "assets/index-CmYwjK2x.css",
+    "revision": "0fc16b4b82128b6ef45a185c46e53e7d"
   }, {
     "url": "favicon.ico",
     "revision": "4dc29d6087fc2573673564226e8a25e6"
